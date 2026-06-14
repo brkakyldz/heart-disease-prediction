@@ -20,8 +20,7 @@ heart_disease/
 ├── models/
 │   ├── disease_lgbm_model.pkl     # Trained pipeline (preprocessing + model)
 │   └── metrics.pkl                # Test set performance metrics
-├── app/
-│   └── app.py                     # Streamlit web application
+├── app.py                         # Streamlit web application                  
 ├── requirements.txt
 └── README.md
 ```
@@ -64,7 +63,7 @@ python src/train.py
 ### 5. Run the Streamlit app
 
 ```bash
-streamlit run app/app.py
+streamlit run app.py
 ```
 
 ---
@@ -124,10 +123,10 @@ Best parameters found:
 
 | Metric | Score |
 |---|---|
-| Accuracy | 0.836 |
-| Precision | 0.757 |
-| Recall | **0.966** |
-| F1 Score | 0.848 |
+| Accuracy | 0.754 |
+| Precision | 0.675 |
+| Recall | **0.931** |
+| F1 Score | 0.783 |
 
 > **Recall was prioritized** — the model correctly identifies 96.6% of actual heart disease cases. The trade-off is lower precision (some healthy patients may be flagged), which is acceptable in a medical screening context.
 
