@@ -1,5 +1,7 @@
 # 🫀 Heart Disease Risk Predictor
 
+> 🌐 **Project URL:** [STREAMLIT WEB APP](https://heart-disease-prediction-brkakyldz.streamlit.app)
+
 An machine learning project that predicts heart disease risk using the UCI Heart Disease (Cleveland) dataset. The project covers the full ML pipeline: exploratory data analysis, baseline model comparison, hyperparameter tuning, and deployment via a Streamlit web application.
 
 ---
